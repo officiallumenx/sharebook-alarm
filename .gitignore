@@ -1,0 +1,46 @@
+# Dependencies
+**/node_modules/
+
+# Next.js / build
+**/.next/
+**/out/
+**/build/
+**/dist/
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# Test / coverage
+**/coverage/
+**/test-results/
+**/playwright-report/
+**/blob-report/
+**/playwright/.cache/
+
+# Env & secrets
+**/.env*
+**/*.pem
+**/*.keystore
+
+# Android local / build artifacts
+**/android/.gradle/
+**/android/app/build/
+**/android/build/
+**/android/captures/
+**/android/local.properties
+**/*.apk
+**/*.aab
+**/.idea/
+
+# OS / misc
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.vercel
+
+# Local archives / backups (not source of truth)
+.source_backup/
+_flutter_archive/
